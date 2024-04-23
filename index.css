@@ -78,91 +78,85 @@ a {
 aside {
 
 float: right; width: 28%;}
-#middle-inner {
-	padding: 20px 0 20px 0;
+#side-inner {
+	padding: 20px 30px;
 }
 .side-title {
-	padding: 7px 16px 7px 16px;
-	background-color: #f1f1f1;
-	color: #333;
+	padding: 10px 15px;
+	margin: 0;
 	font-weight: bold;
-	border: 1px solid #ccc;
-	margin-bottom: 10px;
-	border-radius: 5px;
+	color: #E3E3E2;
+	background: #003366;
+	border-radius: 5px 5px 0 0;
 }
 .side {
-	margin: 0 0 10px 0;
-	padding: 2px 8px 8px 7px;
 	background-color: #fcfcfc;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
+	padding: 10px;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	border: 1px #dcdcdc solid;
+	border-radius: 0 0 5px 5px;
+}
+.side a {
+	color: #036;
+	text-decoration: none;
+}
+.side a:hover {
+	text-decoration: underline;
 }
 .side ul {
-	margin: 0 0 0 10px;
+	margin: 0 0 1em 0;
 	padding: 0;
 }
 .side li {
+	padding: 5px 0;
+	margin: 0;
 	list-style: none;
-	margin-bottom: 0.5em;
-}
-.side li a {
-	text-decoration: none;
-	color: #214555;
-}
-.side li a:hover {
-	text-decoration: underline;
 }
 footer {
-	font-size: 15px;
+	padding-top: 20px;
+	font-size: 14px;
 	height: 100px;
 	clear: both;
 	text-align: center;
+	color: #444;
+	background-color: #F2F2F2;
+}
+footer a {
+	color: #444;
 }
 blockquote {
 	border: 1px solid #ccc;
-	padding: 5px;
+	padding: 20px;
 	margin: 10px;
+	font-style: italic;
 }
-@media screen and (max-width: 767px) {
-#header-container {
-    margin: 0;
+@media screen and (max-width: 600px) {
+#outer {
 	width: 100%;
+	margin: 0;
 }
-header {
-
-}
-#head-inner {
-    padding: 25px 10px;
-	background-color: #214555;
-}
-.description {
-}
-#content-wrapper {
-margin: 0;
-	width: 100%;}
-main {
-width: 100%;
-	color: #333;
-}
-#inner {
-	padding: 20px 10px 0 10px;
-}
-aside {
-width: 100%;
-}
-#middle-inner {
-	padding: 10px 10px 20px 10px;
+#header-inner {
+	padding: 20px;
 }
 h1 {
-	font-size: 20px;
+	font-size: 22px;
+	color: #333;
+	padding: 0;
+	margin: 0;
 }
-h2 {
-	font-size: 18px;
+#content {
+	width: 100%;
+	float: none;
 }
-h3 {
-	font-size: 16px;
+.inner {
+	padding: 20px 15px;
 }
-h4 {
-	font-size: 14px;
+aside {
+	width: 100%;
+	float: none;
+}
+#side-inner {
+	padding: 15px;
 }
 }
