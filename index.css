@@ -113,10 +113,16 @@ float: right; width: 28%;}
 	text-decoration: underline;
 }
 footer {
-	font-size: 15px;
+	padding-top: 20px;
+	font-size: 14px;
 	height: 100px;
 	clear: both;
 	text-align: center;
+	color: #444;
+	background-color: #F2F2F2;
+}
+footer a {
+	color: #444;
 }
 blockquote {
 	border: 1px solid #ccc;
