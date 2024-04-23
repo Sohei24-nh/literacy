@@ -48,9 +48,6 @@ h2 {
 main {
 	color: #333;
 float: left; width: 70%;}
-#inner {
-	padding: 20px 0 0 0;
-}
 ul {
 	margin: 0 0 0 1em;
 	padding: 0;
@@ -74,43 +71,6 @@ hr {
 }
 a {
 	font-weight: normal;
-}
-aside {
-
-float: right; width: 28%;}
-#middle-inner {
-	padding: 20px 0 20px 0;
-}
-.side-title {
-	padding: 7px 16px 7px 16px;
-	background-color: #f1f1f1;
-	color: #333;
-	font-weight: bold;
-	border: 1px solid #ccc;
-	margin-bottom: 10px;
-	border-radius: 5px;
-}
-.side {
-	margin: 0 0 10px 0;
-	padding: 2px 8px 8px 7px;
-	background-color: #fcfcfc;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
-}
-.side ul {
-	margin: 0 0 0 10px;
-	padding: 0;
-}
-.side li {
-	list-style: none;
-	margin-bottom: 0.5em;
-}
-.side li a {
-	text-decoration: none;
-	color: #214555;
-}
-.side li a:hover {
-	text-decoration: underline;
 }
 footer {
 	font-size: 15px;
