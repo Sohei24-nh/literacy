@@ -172,3 +172,10 @@ h4 {
 	font-size: 14px;
 }
 }
+/* Newマーク、日付・タイトル後 */
+.new{
+  margin-left:5px;
+  font-size:0.9em; /* 文字サイズ */
+  font-weight:normal;
+  color:red; /* 文字の色 */
+}
