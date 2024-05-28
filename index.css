@@ -171,7 +171,7 @@ h3 {
 h4 {
 	font-size: 14px;
 }
-}
+
 span.new {
 content: 'New!';           /* 最後に入れたい任意の文字を入力 */
   font-size: 11px;           /* 文字サイズを11pxに指定 */
