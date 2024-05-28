@@ -159,18 +159,6 @@ width: 100%;
 #middle-inner {
 	padding: 10px 10px 20px 10px;
 }
-h1 {
-	font-size: 20px;
-}
-h2 {
-	font-size: 18px;
-}
-h3 {
-	font-size: 16px;
-}
-h4 {
-	font-size: 14px;
-}
 
 span.new {
 content: 'New!';           /* 最後に入れたい任意の文字を入力 */
