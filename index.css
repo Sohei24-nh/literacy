@@ -172,10 +172,31 @@ h4 {
 	font-size: 14px;
 }
 }
-/* Newマーク、日付・タイトル後 */
-.new{
-  margin-left:5px;
-  font-size:0.9em; /* 文字サイズ */
-  font-weight:normal;
-  color:red; /* 文字の色 */
+ul li.new::after {
+  content: 'New!';           /* 最後に入れたい任意の文字を入力 */
+  font-size: 11px;           /* 文字サイズを11pxに指定 */
+  font-weight: bold;         /* 太文字に指定 */
+  line-height: 1.3;          /* 行間を指定 */
+  display: inline-block;     /* line-heightの背景にも色を入れるため */
+  color: #fff;               /* 文字色を白に指定 */
+  background: #F00;          /* 背景色を赤に指定 */
+  border-radius: 15px;       /* 楕円形にするため角丸 */
+  padding: 0 5px;            /* 上下左右に少し余白 */
+  margin-left: 10px;         /* これを指定すれば上寄せや下寄せが可能 */
+  vertical-align: baseline;  /* これを指定すれば上寄せや下寄せが可能 */
+}
+
+
+ol li.new::after {
+  content: 'New!';           /* 最後に入れたい任意の文字を入力 */
+  font-size: 11px;           /* 文字サイズを11pxに指定 */
+  font-weight: bold;         /* 太文字に指定 */
+  line-height: 1.3;          /* 行間を指定 */
+  display: inline-block;     /* line-heightの背景にも色を入れるため */
+  color: #fff;               /* 文字色を白に指定 */
+  background: #F00;          /* 背景色を赤に指定 */
+  border-radius: 15px;       /* 楕円形にするため角丸 */
+  padding: 0 5px;            /* 上下左右に少し余白 */
+  margin-left: 10px;         /* これを指定すれば上寄せや下寄せが可能 */
+  vertical-align: baseline;  /* これを指定すれば上寄せや下寄せが可能 */
 }
