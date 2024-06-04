@@ -129,11 +129,8 @@ blockquote {
 	padding: 5px;
 	margin: 10px;
 }
-table {
-	border: 4px solid #333;
-}
-th,td {
-	border: 1px solid #333;
+table, th, td {
+  border:1px solid #333;
 }
 @media screen and (max-width: 767px) {
 #header-container {
